@@ -1,11 +1,21 @@
-# OsmanToken (OSM)
+# Osman Token (OSM)
 
-A simple ERC-20 token built with Solidity using OpenZeppelin contracts.
+Osman Token (OSM) is an **ERC-20 token** built in Solidity, using OpenZeppelin’s battle-tested smart contract library.
 
-## Features
-- ERC-20 standard
-- Minted to deployer on contract creation
-- Symbol: OSM
+## 🚀 Features
+- **ERC-20 Compliant** — Compatible with all ERC-20 wallets and DApps.
+- **Mint on Deployment** — Fixed supply is minted to the owner address.
+- **OpenZeppelin Security** — Uses audited libraries to ensure safety.
+- **Fully Open Source** — Anyone can review, fork, and improve.
 
-## How it works
-When you deploy the contract, it mints the initial supply of OSM tokens to your wallet.
+## 🛠 Tech Stack
+- **Solidity** (Smart Contracts)
+- **OpenZeppelin Contracts**
+- **Hardhat** (Recommended for testing & deployment)
+
+## 📦 Installation & Deployment
+Clone this repo and install dependencies:
+```bash
+git clone https://github.com/866525/osman-token.git
+cd osman-token
+npm install
